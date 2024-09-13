@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Global Connect Page</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+
+html {
+  background-image: url('file://storage/emulated/0/Documents/pixelLab/20240912_201508.jpg');
+  background-size: cover;
+  
+}
+* {
+  background: #C8E6C9;
+  background-size: cover;
+}
+.header {
+  display: block;
+  word-spacing: 15px;
+}
+
+.bkhome  {
+  background: white;
+  width: 35px;
+  height: 35px;
+  border: 0;
+  border-radius: 50px;
+  box-shadow: 0px 0px 2px black;
+  font-size: 20px;
+  font-family: New Amsterdam, sans-serif;
+  font-weight: bold;
+  margin-left: 15px;
+}
+.logo {
+  background: white;
+  height: 35px;
+  width: 180px;
+  border: 0;
+  border-radius: 50px;
+  box-shadow: 0px 0px 2px black;
+}
+.profile {
+  width: 35px;
+  height: 35px;
+  border: 0;
+  border-radius: 50px;
+  float: right;
+  margin-right: 10px;
+  box-shadow: 0px 0px 2px black;
+}
+.gc {
+  display: block;
+  background: #2E8532;
+  width: 290px;
+  height: 120px;
+  color: #E8DE87;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: New Amsterdam;
+  font-weight: 400;
+  border-radius: 25px;
+  box-shadow: 2px 2px 5px grey;
+  
+}
+.others {
+  background: transparent;
+  width: 245px;
+  height: 210px;
+  border-radius: 18px;
+  border: 1.5px solid #2E8532;
+}
+.title {
+  background: #2E8532;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size: 10px;
+  
+  font-family: New Amsterdam;
+  color: #E8DE87;
+  border-radius: 5px;
+}
+.search {
+  background: #999;
+  width: 210px;
+  height: 25px;
+  padding-left: 10px;
+  font-size: 10px;
+  border: 0;
+  border-radius: 50px;
+  box-shadow: 0px 0px 3px;
+}
+.icon  {
+  background: #999;
+  width: 15px;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 100px;
+  box-shadow: 0px 0px 3px;
+}
+.set {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+}
+.cat {
+  background: linear-gradient(to right, green 25%, white 25%);
+  width: 210px;
+  height: 40px;
+  border: 0;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px grey;
+  display: flex;
+  justify-content: space-around;
+}
+.con {
+  display: grid;
+  place-items: center;
+  background: #2E8532;
+  border: 0;
+  font-size: 1px;
+  font-family: New Amsterdam;
+  border-radius: 8px;
+  width: 36px;
+  box-shadow: 1px 1px 3px grey;
+}
+.allcat {
+  display: flex;
+  justify-content: space-between;
+  width: 260px;
+}
+
+.cser {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 7px;
+}
+.more {
+  margin-top: -18px;
+  height: 3px;
+  background: transparent;
+  font-size: 30px;
+  color: #9999;
+  font-weight: bold;
+}
+.personal {
+  background: transparent;
+  width: 255px;
+  height: 110px;
+  border-radius: 18px;
+  border: 1.5px solid #2E8532;
+}
+.ps {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  width: 260px;
+}
+.sp {
+  width: 40px;
+  height 40px;
+  background: url('file:///storage/emulated/0/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/IMG-20240908-WA0001~2.jpg');
+  background-size: cover;
+  border: 0px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 2px;
+}
+.st {
+  background: white;
+  width: 155px;
+  height: 40px;
+  border:0;
+  border-radius: 9px;
+  box-shadow: 1px 1px 3px;
+}
+.ep {
+  background: transparent;
+  font-size: 14px;
+}
+.pmenu {
+  display: flex;
+  gap: 10px;
+}
+.vs {
+  background: transparent;
+  padding: 5px;
+  border: 1px solid #2E8532;
+  border-radius: 50px;
+  font-size: 10px;
+  font-family: New Times Roman;
+  font-weight: bold;
+  color: #2E8532;
+}
+.expand {
+  background: transparent;
+  padding: 3px;
+  border: 1px solid black;
+  border-radius: 50px;
+  font-size: 10px;
+  font-weight: bold;
+  color: #2E8532;
+  display: flex;
+  gap: 10px;
+}
+.eb {
+  background: #C8E6C9;
+  padding: 5px;
+  border: 0px solid #2E8532;
+  border-radius: 50px;
+  font-size: 10px;
+  font-weight: bold;
+  color: black;
+}
+.add {
+  width: 273px;
+  background: transparent;
+  display: flex;
+  justify-content: right;
+}
+.add-button {
+  background: dodgerblue;
+  border: 5px solid #C8E6C9;
+  border-radius: 14px;
+  width: 50px;
+  aspect-ratio: 1;
+  margin-top: -25px;
+  box-shadow: 0px 0px 2px inset;
+}
+  </style>
+</head>
+<body><br>
+  <div class="all">
+  <div class="header">
+    <button class="bkhome"> </button>
+    <button class="logo"> </button>
+    <button class="profile"> </button>
+  </div><br>
+    <center>
+    <div class="gc">
+      
+    </div>
+    </center>
+    <center><br>
+    <fieldset class="others" >
+      <legend class="title">Global Space</legend>
+      <div class="set">
+      <input type="search" placeholder="Search to death" class="search">
+      <i class="fa fa-microphone icon"></i>
+      </div><br>
+      <div class="cser">
+      <div class="allcat">
+      <button class="cat"></button>
+      <button class="con">Connect</button>
+      </div>
+      <div class="allcat">
+      <button class="cat"></button>
+      <button class="con">Connect</button>
+      </div>
+      <div class="allcat">
+      <button class="cat"></button>
+      <button class="con">Connect</button>
+      </div>
+      </div>
+      <center>
+        <div class="more">
+          ...
+        </div>
+      </center>
+    </fieldset>
+      </center><br>
+    <center>
+    <fieldset class="personal">
+      <legend class="title">Personal Space</legend>
+      <div class="ps">
+        <button class="sp"></button>
+        <button class="st"></button>
+        <button class="con" >
+         <i class="fa fa-pencil ep"></i>
+        </button>
+      </div>
+      <br>
+      <div class="pmenu">
+      <button class="vs">View As</button>
+         <a href="file:///storage/emulated/0/GC Dashboard .html">
+        <button class="expand">
+            <i class="fa fa-expand eb"></i>
+        </button>
+         </a>
+      </div>
+    </fieldset>
+    </center>
+    <center>
+    <div class="add">
+      <button class="add-button">+</button>
+    </div>
+      <center>
+  </div>
+</body>
+</html>
