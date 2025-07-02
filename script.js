@@ -19,7 +19,7 @@ const TOKEN_EXPIRY_BUFFER = 30 * 60 * 1000; // 30 minutes buffer before expiry
 
 // Domain masking magic for that GitHub Pages aesthetic
 if (location.hostname.includes("github.io")) {
-  history.replaceState(null, null, "/prompt.heaven.com");
+  history.replaceState(null, null, "/prompt-heaven/");
 }
 
 // Initialize admin token and setup refresh mechanism
