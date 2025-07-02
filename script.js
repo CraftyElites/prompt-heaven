@@ -207,7 +207,7 @@ async function safeDropboxCall(fn, retries = 3, delay = 1000, isAdminCall = fals
 
 // Authentication functions - login logic that's quite melodic
 function login() {
-  const redirectUri = window.location.origin;
+  const redirectUri = "https://craftyelites.github.io/prompt-heaven/";
   const authUrl = `https://www.dropbox.com/oauth2/authorize?client_id=${APP_KEY}&response_type=token&redirect_uri=${redirectUri}`;
   location.href = authUrl;
 }
